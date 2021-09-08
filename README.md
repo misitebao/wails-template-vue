@@ -66,6 +66,8 @@ I hope that Vue and its powerful community ecology can be used in Wails applicat
 
 ## Graphic Demo
 
+![Demo Screenshot](./screenshots.png)
+
 <span id="nav-5"></span>
 
 ## Features
