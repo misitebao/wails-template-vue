@@ -17,14 +17,15 @@ var assets embed.FS
 func main() {
 
 	// Create application with options
+	// 使用选项创建应用
 	app := NewApp()
 
 	err := wails.Run(&options.App{
 		Title:             "{{.ProjectName}}",
 		Width:             1600,
 		Height:            1000,
-		MinWidth:          400,
-		MinHeight:         400,
+		MinWidth:          1400,
+		MinHeight:         980,
 		MaxWidth:          2000,
 		MaxHeight:         1500,
 		DisableResize:     false,
@@ -35,7 +36,7 @@ func main() {
 		RGBA:              0x000000FF,
 		Assets:            assets,
 		Windows: &windows.Options{
-			WebviewIsTransparent:          false,
+			WebviewIsTransparent:          true,
 			WindowBackgroundIsTranslucent: false,
 			DisableWindowIcon:             false,
 		},
