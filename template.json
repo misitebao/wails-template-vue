@@ -1,6 +1,6 @@
 {
   "name": "wails-template-vue",
-  "shortname": "wails-template-vue",
+  "shortname": "vue",
   "author": "Misitebao <i@misitebao.com>",
   "description": "A template using vue and vue-router",
   "helpurl": "https://github.com/misitebao/wails-template-vue"
