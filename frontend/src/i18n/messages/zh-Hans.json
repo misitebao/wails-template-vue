@@ -1,0 +1,10 @@
+{
+  "welcome": "欢迎使用Vue.js应用程序",
+  "menu": {
+    "home": "主页",
+    "about": "关于"
+  },
+  "about": {
+    "welcome": "这是一个关于页面"
+  }
+}
