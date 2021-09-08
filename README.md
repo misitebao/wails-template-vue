@@ -109,7 +109,9 @@ Thank you to all the contributors who participated in the development of standar
 
 ## Community Exchange
 
+- [Github Discussions](https://github.com/wailsapp/wails/discussions) - The official Github communication community of the Wails project
 - [Wails Slack](https://invite.slack.golangbridge.org/) - Wails official communication channel
+- [Twitter](https://twitter.com/wailsapp) - Wails official Twitter account
 
 <span id="nav-11"></span>
 
