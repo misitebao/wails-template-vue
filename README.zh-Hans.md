@@ -80,6 +80,8 @@ wails-template-vue 模板是一个支持 Wails 应用的 Vue 模板，默认提�
 
 ## 新手入门
 
+### 新建项目
+
 ```
 wails init -n [你的应用名称] -t https://github.com/misitebao/wails-template-vue
 ```
@@ -88,6 +90,16 @@ wails init -n [你的应用名称] -t https://github.com/misitebao/wails-templat
 
 - n - 将要创建的应用名称
 - t - 模板名称，支持内置模板名称以及超链接形式的第三方模板
+
+### 前端部分参考文档
+
+前端部分使用了 Vue Vue-Router 和 Vue-I18N。
+
+- Vue - 使用 Vue 3.x 版本，具体内容可以参考[Vue 官方文档](https://v3.cn.vuejs.org/guide/introduction.html)。
+- Vue-Router - 使用 Vue-Router 4.x 版本，具体使用方式请参考[官方文档](https://next.router.vuejs.org/)。
+- Vue-I18N - 使用 Vue-I18N 9.x 版本，具体使用方式请参考[官方文档](vue-i18n.intlify.dev/)。
+
+然后您就可以参考 Wails 官方文档开始开发您的应用啦 🤞!
 
 <span id="nav-8"></span>
 

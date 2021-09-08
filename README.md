@@ -80,6 +80,8 @@ I hope that Vue and its powerful community ecology can be used in Wails applicat
 
 ## Getting Started
 
+### New Project
+
 ```
 wails init -n [Your Appname] -t https://github.com/misitebao/wails-template-vue
 ```
@@ -89,7 +91,17 @@ flag description:
 - n - The name of the application to be created
 - t - Template name, supports built-in template names and third-party templates in the form of hyperlinks
 
-  <span id="nav-8"></span>
+### Front-end reference document
+
+The front-end part uses Vue Vue-Router and Vue-I18N:
+
+- Vue - Use vue3.x version, the specific content can refer to the official[Vue Document](https://v3.cn.vuejs.org/guide/introduction.html).
+- Vue-Router - Use Vue-Router 4.x version, please refer to the official [Documents](https://next.router.vuejs.org/) for specific usage.
+- Use Vue-I18N 9.x version, please refer to official [Documents](vue-i18n.intlify.dev/) for specific usage.
+
+Then you can refer to the official Wails document to start developing your application🤞.
+
+<span id="nav-8"></span>
 
 ## Maintainer
 
