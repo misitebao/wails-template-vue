@@ -84,7 +84,12 @@ I hope that Vue and its powerful community ecology can be used in Wails applicat
 wails init -n [Your Appname] -t https://github.com/misitebao/wails-template-vue
 ```
 
-<span id="nav-8"></span>
+flag description:
+
+- n - The name of the application to be created
+- t - Template name, supports built-in template names and third-party templates in the form of hyperlinks
+
+  <span id="nav-8"></span>
 
 ## Maintainer
 
@@ -116,6 +121,8 @@ Thank you to all the contributors who participated in the development of standar
 <span id="nav-11"></span>
 
 ## Part Of Users
+
+- [Wails API Demos](https://github.com/misitebao/wails-api-demos) - A sample program for exploring Wails API, inspired by [Electron API Demos](https://github.com/electron/electron-api-demos)
 
 <span id="nav-12"></span>
 
