@@ -2,7 +2,7 @@
   <img src="/logo.png" height="280" />
 </p>
 <p align="center">
-  A wails template based on Vue and Vue-Router
+  A Wails template based on Vue and Vue-Router
 </p>
 <p align="center">
   <a href="https://github.com/misitebao/standard-repository/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/misitebao/standard-repository?style=flat-square"/></a>
@@ -60,7 +60,7 @@ The wails-template-vue template is a Vue template that supports Wails programs a
 
 ### Background
 
-I hope that Vue and its powerful community ecology can be used in wails applications to develop single-page applications that support multiple routes.
+I hope that Vue and its powerful community ecology can be used in Wails applications to develop single-page applications that support multiple routes.
 
 <span id="nav-4"></span>
 
@@ -109,7 +109,7 @@ Thank you to all the contributors who participated in the development of standar
 
 ## Community Exchange
 
-- [Wails Slack](https://invite.slack.golangbridge.org/ - Wails official communication channel
+- [Wails Slack](https://invite.slack.golangbridge.org/) - Wails official communication channel
 
 <span id="nav-11"></span>
 
