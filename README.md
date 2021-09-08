@@ -97,7 +97,7 @@ The front-end part uses Vue Vue-Router and Vue-I18N:
 
 - Vue - Use vue3.x version, the specific content can refer to the official [Vue Document](https://v3.cn.vuejs.org/guide/introduction.html).
 - Vue-Router - Use Vue-Router 4.x version, please refer to the official [Vue-Router Documents](https://next.router.vuejs.org/) for specific usage.
-- Use Vue-I18N 9.x version, please refer to official [Vue-I18N Documents](vue-i18n.intlify.dev/) for specific usage.
+- Vue-I18N - Use Vue-I18N 9.x version, please refer to official [Vue-I18N Documents](vue-i18n.intlify.dev/) for specific usage.
 
 Then you can refer to the official Wails document to start developing your application🤞.
 
