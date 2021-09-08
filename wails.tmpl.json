@@ -2,6 +2,8 @@
   "name": "{{.ProjectName}}",
   "outputfilename": "{{.BinaryName}}",
   "assetdir": "frontend/dist",
+  "frontend:build": "npm run build",
+  "frontend:install": "npm install",
   "author": {
     "name": "{{.AuthorName}}",
     "email": "{{.AuthorEmail}}"
