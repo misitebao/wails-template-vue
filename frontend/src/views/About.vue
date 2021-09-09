@@ -4,61 +4,94 @@
     <div class="title">{{ $t('aboutpage.title') }}</div>
     <!-- Information -->
     <!-- 信息 -->
-    <ul class="info">
-      <li class="info-item">
-        <span class="name">{{ $t('aboutpage.project-repository') + ': ' }}</span>
-        <OpenLink
-          class="link"
-          href="https://github.com/misitebao/wails-template-vue"
-        >https://github.com/misitebao/wails-template-vue</OpenLink>
-      </li>
-      <li class="info-item">
-        <span class="name">{{ $t('aboutpage.author') + ': ' }}</span>
-        <OpenLink class="link" href="https://github.com/misitebao">{{ $t('aboutpage.misitebao') }}</OpenLink>
-      </li>
-      <li class="info-item">
-        <span class="name">{{ $t('aboutpage.wails-repository') + ': ' }}</span>
-        <OpenLink
-          class="link"
-          href="https://github.com/wailsapp/wails"
-        >https://github.com/wailsapp/wails</OpenLink>
-      </li>
-    </ul>
+    <div class="content">
+      <div class="comeon">
+        <img :src="comeonGif" alt />
+      </div>
+      <ul class="info">
+        <li class="info-item">
+          <div class="name">{{ $t('aboutpage.project-repository') }}</div>
+          <OpenLink
+            class="link"
+            href="https://github.com/misitebao/wails-template-vue"
+          >https://github.com/misitebao/wails-template-vue</OpenLink>
+        </li>
+        <li class="info-item">
+          <div class="name">{{ $t('aboutpage.wails-repository') }}</div>
+          <OpenLink
+            class="link"
+            href="https://github.com/wailsapp/wails"
+          >https://github.com/wailsapp/wails</OpenLink>
+        </li>
+        <li class="info-item">
+          <div class="name">{{ $t('aboutpage.author') }}</div>
+          <OpenLink class="link" href="https://github.com/misitebao">{{ $t('aboutpage.misitebao') }}</OpenLink>
+        </li>
+      </ul>
+    </div>
+
     <!-- Thanks -->
     <!-- 谢语 -->
     <div class="thank">{{ $t('aboutpage.thanks') }}</div>
   </div>
 </template>
+<script>
+import comeonGif from '@/assets/images/comeon.gif'
+export default {
+  setup() {
+    return {
+      comeonGif
+    }
+  },
+}
+</script>
 <style lang="scss">
 .about {
   .title {
-    margin: 30px auto;
-    font-size: 36px;
+    margin: 20px auto 10px;
+    font-size: 38px;
     color: #a150b5;
     text-align: center;
   }
-  .info {
-    margin: 14px 60px;
-    // background-color red
-    font-size: 24px;
-    .info-item {
-      height: 60px;
-      line-height: 60px;
-      white-space: nowrap;
-      .name {
-        color: #6d6363;
+  .content {
+    position: relative;
+    margin: 14px 20px;
+    .comeon {
+      position: absolute;
+      left: 60px;
+      top: 26px;
+      max-width: 66%;
+      img {
+        width: 180px;
+        height: 180px;
       }
-      .link {
-        color: #5f6c86;
+    }
+    .info {
+      margin: 0 0 0 33%;
+      font-size: 24px;
+      text-align: left;
+      .info-item {
+        margin-bottom: 10px;
+        .name {
+          line-height: 40px;
+          font-size: 28px;
+          color: #6d6363;
+        }
+        .link {
+          line-height: 30px;
+          font-size: 20px;
+          color: #5f6c86;
+        }
       }
     }
   }
+
   .thank {
     height: 68px;
     line-height: 68px;
-    margin: 47px auto;
+    margin: 36px auto;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 </style>

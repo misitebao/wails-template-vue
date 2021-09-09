@@ -178,7 +178,7 @@ body {
       min-width: 150px;
       .bar-btn {
         display: inline-block;
-        min-width: 50px;
+        min-width: 80px;
         height: 30px;
         line-height: 30px;
         padding: 0 5px;
