@@ -65,11 +65,11 @@ export default {
     // it will be updated to be called directly when js is running.
     // 由于当前js运行时还没有开发完成，所以先调用Go完成。后续会更新为js运行时直接调用。
     const onclickMinimise = () => {
-      alert(i18n.global.t("global.not-supported"))
+      window.runtime.WindowMinimise()
 
     }
     const onclickQuit = () => {
-      alert(i18n.global.t("global.not-supported"))
+      window.go.main.App.Quit()
 
     }
 

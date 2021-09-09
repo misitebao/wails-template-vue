@@ -2,35 +2,38 @@ package main
 
 import (
 	"context"
-	"fmt"
+
+	"github.com/wailsapp/wails/v2/pkg/runtime"
 )
 
 // App struct
 type App struct {
-	runtime context.Context
+	ctx context.Context
 }
 
 // NewApp creates a new App application struct
+// NewApp 创建一个新的 App 应用程序
 func NewApp() *App {
 	return &App{}
 }
 
 // startup is called at application startup
+// startup 在应用程序启动时调用
 func (b *App) startup(ctx context.Context) {
 	// Perform your setup here
-	//TODO: move to new runtime layout
-
-	//b.runtime = runtime
-	//runtime.Window.SetTitle("{{.ProjectName}}")
+	// 在这里执行初始化设置
+	b.ctx = ctx
 }
 
 // shutdown is called at application termination
 // 在应用程序终止时被调用
 func (b *App) shutdown(ctx context.Context) {
 	// Perform your teardown here
+	// 在此处做一些资源释放的操作
 }
 
-// Greet returns a greeting for the given name
-func (b *App) Greet(name string) string {
-	return fmt.Sprintf("Hello %s!", name)
+// Quit Exit the application
+// Quit 退出应用
+func (b *App) Quit() {
+	runtime.Quit(b.ctx)
 }
