@@ -46,14 +46,14 @@ export default {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    margin: 16px auto;
+    margin: 18px auto;
     .btn {
       display: block;
       width: 150px;
       height: 50px;
       line-height: 50px;
       padding: 0 5px;
-      margin: 12px 30px;
+      margin: 0 30px;
       border-radius: 8px;
       text-align: center;
       font-weight: 700;
