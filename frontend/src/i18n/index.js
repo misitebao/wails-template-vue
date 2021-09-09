@@ -5,7 +5,8 @@ const i18n = createI18n({
   fallbackLocale: 'en',
   messages: {
     "zh-Hans": require('./messages/zh-Hans.json'),
-    "en": require('./messages/en.json')
+    "en": require('./messages/en.json'),
+    "fr": require('./messages/fr.json')
   }
 })
 

@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Page d'accueil",
+    "about": "À propos"
+  },
+  "languages": {
+    "en": "English",
+    "zh-Hans": "简体中文",
+    "fr": "Français"
+  },
+  "topbar": {
+    "minimise": "Minimiser",
+    "quit": "Quitter"
+  },
+  "homepage": {
+    "welcome": "Bienvenue à utiliser le programme Wails développé sur la base de Vue",
+    "getting-started": "Commencer",
+    "star-me": "Étoile moi"
+  },
+  "aboutpage": {
+    "title": "Wails Template Vue",
+    "project-repository": "Référentiel de projets",
+    "author": "Auteur",
+    "misitebao": "Misitebao",
+    "wails-repository": "Wails Dépôt",
+    "thanks": "Merci à tous pour votre soutien🙏!"
+  },
+  "global": {
+    "not-supported": "Parce qu'il s'agit d'une version bêta, cela ne peut pas être fait pour le moment, il sera complété plus tard.",
+    "click-link": "Le lien actuellement cliqué est: "
+  }
+}

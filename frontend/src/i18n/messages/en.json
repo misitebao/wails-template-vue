@@ -5,11 +5,12 @@
   },
   "languages": {
     "en": "English",
-    "zh-Hans": "简体中文"
+    "zh-Hans": "简体中文",
+    "fr": "Français"
   },
   "topbar": {
     "minimise": "Minimise",
-    "exit": "Exit"
+    "quit": "Quit"
   },
   "homepage": {
     "welcome": "Welcome to use Wails program developed based on Vue",
@@ -22,7 +23,7 @@
     "author": "Author",
     "misitebao": "Misitebao",
     "wails-repository": "Wails Repository",
-    "thanks": "Thank you all for your support🙏！"
+    "thanks": "Thank you all for your support🙏!"
   },
   "global": {
     "not-supported": "Because it is a beta version, it can't be done for the time being, it will be completed later.",
