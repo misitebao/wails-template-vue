@@ -86,6 +86,7 @@ export default {
 
 <style lang="scss">
 @import url("./assets/css/reset.css");
+@import url("./assets/css/font.css");
 
 html,
 body {
@@ -93,6 +94,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: "JetBrainsMono";
 }
 
 #app {

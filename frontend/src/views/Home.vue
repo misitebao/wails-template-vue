@@ -38,7 +38,7 @@ export default {
     display: block;
     width: 620px;
     height: 280px;
-    margin: 30px auto 10px;
+    margin: 10px auto 10px;
   }
   .link {
     display: flex;
@@ -46,12 +46,13 @@ export default {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    margin: 24px auto;
+    margin: 16px auto;
     .btn {
       display: block;
       width: 150px;
       height: 50px;
       line-height: 50px;
+      padding: 0 5px;
       margin: 12px 30px;
       border-radius: 8px;
       text-align: center;

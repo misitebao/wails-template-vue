@@ -14,9 +14,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .hello-world {
-  height: 30px;
-  line-height: 30px;
-  margin: 16px auto;
+  height: 76px;
+  line-height: 38px;
+  margin: 16px 150px;
   text-align: center;
   font-size: 26px;
 }
