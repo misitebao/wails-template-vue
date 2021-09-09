@@ -45,18 +45,18 @@ export default {
     justify-content center
     margin 24px auto
     .btn{
-      display block
-      width 136px
-      height 46px
-      line-height 46px
-      margin 0 10px
-      border-radius 8px
-      text-align center
-      font-weight bold
-      font-size: 14px;
-      white-space nowrap
+      display: block;
+      width: 150px;
+      height: 50px;
+      line-height: 50px;
+      margin: 12px 30px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 16px;
+      white-space: nowrap;
       text-decoration: none;
-      cursor pointer
+      cursor: pointer;
       &.start{
         background-color #fd0404
         color #ffffff
