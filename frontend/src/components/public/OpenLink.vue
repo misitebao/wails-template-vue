@@ -17,8 +17,7 @@ export default {
       // 不能直接使用a标签，需要在这里调用Go方法以使用默认浏览器打开链接。
       console.log(i18n.global.t("global.click-link") + props.href)
 
-
-      alert(i18n.global.t("global.click-link") + props.href + i18n.global.t("global.not-supported"))
+      lert(i18n.global.t("global.click-link") + props.href + '\n\n' + i18n.global.t("global.not-supported"))
     }
 
     return {

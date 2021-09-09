@@ -22,7 +22,7 @@
       </div>
       <div class="bar">
         <div class="bar-btn" @click="onclickMinimise">{{ $t("topbar.minimise") }}</div>
-        <div class="bar-btn" @click="onclickExit">{{ $t("topbar.exit") }}</div>
+        <div class="bar-btn" @click="onclickQuit">{{ $t("topbar.quit") }}</div>
       </div>
     </div>
   </div>
@@ -68,7 +68,7 @@ export default {
       alert(i18n.global.t("global.not-supported"))
 
     }
-    const onclickExit = () => {
+    const onclickQuit = () => {
       alert(i18n.global.t("global.not-supported"))
 
     }
@@ -78,7 +78,7 @@ export default {
       locale,
       onclickLanguageHandle,
       onclickMinimise,
-      onclickExit
+      onclickQuit
     }
   },
 }
@@ -113,7 +113,7 @@ body {
   .nav {
     a {
       display: inline-block;
-      width: 50px;
+      min-width: 50px;
       height: 30px;
       line-height: 30px;
       padding 0 5px
@@ -124,6 +124,7 @@ body {
       text-decoration: none;
       color: #000000;
       font-size: 14px;
+      white-space nowrap
       &:hover,
       &.router-link-exact-active {
         background-color: #d7a8d8;
@@ -154,6 +155,7 @@ body {
         color: #000000;
         font-size: 14px;
         &:hover{
+          background-color: #ff050542;
           cursor: pointer;
         }
         &.active {
