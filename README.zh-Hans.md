@@ -73,6 +73,9 @@ wails-template-vue 模板是一个支持 Wails 应用的 Vue 模板，默认提�
 ## 功能特色
 
 - 支持单页路由和国际化
+- 内置 Sass 预处理器
+- 跨平台一致的 UI 体验（内置 JetbrainsMono 字体包）
+- 附带完整的 APi 示例（目前正在开发测试中。。。）
 
 <span id="nav-6"></span>
 
@@ -97,7 +100,7 @@ wails init -n [你的应用名称] -t https://github.com/misitebao/wails-templat
 
 前端部分使用了 Vue Vue-Router 和 Vue-I18N。
 
-- Vue - 使用 Vue 3.x 版本，具体内容可以参考[Vue 官方文档](https://v3.cn.vuejs.org/guide/introduction.html)。
+- Vue - 使用 Vue 3.x 版本，具体内容可以参考[Vue3.x 官方文档](https://v3.vuejs.org/guide/introduction.html)。
 - Vue-Router - 使用 Vue-Router 4.x 版本，具体使用方式请参考[Vue-Router 官方文档](https://next.router.vuejs.org/)。
 - Vue-I18N - 使用 Vue-I18N 9.x 版本，具体使用方式请参考[Vue-I18N 官方文档](vue-i18n.intlify.dev/)。
 
