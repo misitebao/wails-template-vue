@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/logo.png" height="280" />
+  <img src="https://cdn.jsdelivr.net/gh/misitebao/CDN@main/logo/wails-template-vue.png" height="280" />
 </p>
 <p align="center">
   A Wails template based on Vue and Vue-Router
@@ -66,7 +66,7 @@ I hope that Vue and its powerful community ecology can be used in Wails applicat
 
 ## Graphic Demo
 
-![Demo Screenshot](./screenshots.png)
+![Demo Screenshot](https://cdn.jsdelivr.net/gh/misitebao/CDN@main/preview/wails-template-vue.gif)
 
 <span id="nav-5"></span>
 

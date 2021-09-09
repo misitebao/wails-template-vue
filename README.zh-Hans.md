@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/logo.png" height="280" />
+  <img src="https://cdn.jsdelivr.net/gh/misitebao/CDN@main/logo/wails-template-vue.png" height="280" />
 </p>
 <p align="center">
   基于Vue和Vue-Router的Wails模板
@@ -66,7 +66,7 @@ wails-template-vue 模板是一个支持 Wails 应用的 Vue 模板，默认提�
 
 ## 图形演示
 
-![演示截图](./screenshots.png)
+![演示截图](https://cdn.jsdelivr.net/gh/misitebao/CDN@main/preview/wails-template-vue.gif)
 
 <span id="nav-5"></span>
 
