@@ -84,21 +84,23 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="scss">
 @import url("./assets/css/reset.css");
+
 html,
 body {
   width: 100%;
   height: 100%;
-  margin 0
-  padding 0
+  margin: 0;
+  padding: 0;
 }
+
 #app {
   position: relative;
   // width: 900px;
   // height: 520px;
-  width 100%
-  height 100%
+  width: 100%;
+  height: 100%;
   background-color: #dbbcef;
 }
 .header {
@@ -116,7 +118,7 @@ body {
       min-width: 50px;
       height: 30px;
       line-height: 30px;
-      padding 0 5px
+      padding: 0 5px;
       margin-right: 8px;
       background-color: #ab7edc;
       border-radius: 2px;
@@ -124,7 +126,7 @@ body {
       text-decoration: none;
       color: #000000;
       font-size: 14px;
-      white-space nowrap
+      white-space: nowrap;
       &:hover,
       &.router-link-exact-active {
         background-color: #d7a8d8;
@@ -148,13 +150,13 @@ body {
         min-width: 50px;
         height: 30px;
         line-height: 30px;
-        padding 0 5px
+        padding: 0 5px;
         background-color: transparent;
         text-align: center;
         text-decoration: none;
         color: #000000;
         font-size: 14px;
-        &:hover{
+        &:hover {
           background-color: #ff050542;
           cursor: pointer;
         }
@@ -170,14 +172,14 @@ body {
       flex-direction: row;
       flex-wrap: nowrap;
       align-items: center;
-      justify-content flex-end
-      min-width 150px
+      justify-content: flex-end;
+      min-width: 150px;
       .bar-btn {
         display: inline-block;
         min-width: 50px;
         height: 30px;
         line-height: 30px;
-        padding 0 5px
+        padding: 0 5px;
         margin-left: 8px;
         background-color: #ab7edc;
         border-radius: 2px;
@@ -201,6 +203,6 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  overflow hidden
+  overflow: hidden;
 }
 </style>

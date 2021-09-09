@@ -29,32 +29,31 @@
     <div class="thank">{{ $t('aboutpage.thanks') }}</div>
   </div>
 </template>
-<style lang="stylus">
-.about{
-  .title{
-    margin 30px auto
-    font-size 36px
-    color #a150b5
-    text-align center
+<style lang="scss">
+.about {
+  .title {
+    margin: 30px auto;
+    font-size: 36px;
+    color: #a150b5;
+    text-align: center;
   }
-  .info{
-    margin 14px 60px
+  .info {
+    margin: 14px 60px;
     // background-color red
-    font-size 24px
-    .info-item{
-      height 60px
-      line-height 60px
-      white-space nowrap
-      .name{
-        color #6d6363
-
+    font-size: 24px;
+    .info-item {
+      height: 60px;
+      line-height: 60px;
+      white-space: nowrap;
+      .name {
+        color: #6d6363;
       }
-      .link{
-        color #5f6c86
+      .link {
+        color: #5f6c86;
       }
     }
   }
-  .thank{
+  .thank {
     height: 68px;
     line-height: 68px;
     margin: 47px auto;

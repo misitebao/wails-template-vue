@@ -28,9 +28,9 @@ export default {
 };
 </script>
 
-<style lang="stylus">
-.openlink{
-  cursor pointer
-  text-decoration underline
+<style lang="scss">
+.openlink {
+  cursor: pointer;
+  text-decoration: underline;
 }
 </style>
