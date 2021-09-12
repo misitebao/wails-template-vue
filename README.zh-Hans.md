@@ -136,6 +136,10 @@ wails init -n [你的应用名称] -t https://github.com/misitebao/wails-templat
 - [Wails Slack](https://invite.slack.golangbridge.org/) - Wails 官方交流频道
 - [Twitter](https://twitter.com/wailsapp) - Wails 官方推特账号
 
+中文社区：
+
+- [QQ 群：1067173054](https://qm.qq.com/cgi-bin/qm/qr?k=LOe09XYqY0iTDGf5v4aGuoK7ZSn9NjAv&jump_from=webapi) - QQ 中文社区交流群
+
 <span id="nav-11"></span>
 
 ## 部分用户

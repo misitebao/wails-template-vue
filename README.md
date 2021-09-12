@@ -136,6 +136,10 @@ Thank you to all the contributors who participated in the development of standar
 - [Wails Slack](https://invite.slack.golangbridge.org/) - Wails official communication channel
 - [Twitter](https://twitter.com/wailsapp) - Wails official Twitter account
 
+Chinese Community:
+
+- [QQ Group: 1067173054](https://qm.qq.com/cgi-bin/qm/qr?k=LOe09XYqY0iTDGf5v4aGuoK7ZSn9NjAv&jump_from=webapi) - QQ Chinese Community Exchange Group
+
 <span id="nav-11"></span>
 
 ## Part Of Users
