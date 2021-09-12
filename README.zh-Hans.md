@@ -5,11 +5,12 @@
   基于Vue和Vue-Router的Wails模板
 </p>
 <p align="center">
-  <a href="https://github.com/misitebao/standard-repository/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/misitebao/standard-repository?style=flat-square"/></a>
-  <a href="https://github.com/misitebao/standard-repository"><img alt="GitHub" src="https://img.shields.io/badge/Readme--Style-standard--repository-brightgreen?style=flat-square&color=f83500"/></a>
-  <a href="https://github.com/misitebao/wails-template-vue"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/misitebao/wails-template-vue?style=flat-square"/></a>
-  <a href="https://github.com/misitebao"><img alt="GitHub user" src="https://img.shields.io/badge/author-misitebao-brightgreen?style=flat-square"/></a>
-  <a href="https://github.com/wailsapp/wails"><img alt="Gitter" src="https://img.shields.io/badge/For-wails-brightgreen?style=flat-square&color=ff3c3c"/></a>
+  <a href="https://github.com/misitebao/standard-repository/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/misitebao/standard-repository"/></a>
+  <a href="https://github.com/misitebao/standard-repository"><img alt="GitHub" src="https://img.shields.io/badge/Readme--Style-standard--repository-brightgreen?color=f83500"/></a>
+  <a href="https://github.com/misitebao/wails-template-vue"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/misitebao/wails-template-vue"/></a>
+  <a href="https://github.com/misitebao"><img alt="GitHub user" src="https://img.shields.io/badge/author-misitebao-brightgreen"/></a>
+  <a href="https://github.com/wailsapp/wails"><img alt="Gitter" src="https://img.shields.io/badge/For-wails-brightgreen?color=ff3c3c"/></a>
+  <a href="https://github.com/misitebao/awesome-wails"><img alt="Awesome-Wails" src="https://cdn.jsdelivr.net/gh/misitebao/CDN@main/badge/awesome.svg"/></a>
 </p>
 
 <span id="nav-1"></span>
