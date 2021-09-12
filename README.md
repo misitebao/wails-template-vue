@@ -138,7 +138,7 @@ Thank you to all the contributors who participated in the development of standar
 
 Chinese Community:
 
-- [QQ Group: 1067173054](https://qm.qq.com/cgi-bin/qm/qr?k=LOe09XYqY0iTDGf5v4aGuoK7ZSn9NjAv&jump_from=webapi) - QQ Chinese Community Exchange Group
+- <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=utlUvDwtcNG5knHBLwVdMvG39WeHh7oj&jump_from=webapi">QQ Group: 1067173054</a> - QQ Chinese Community Exchange Group
 
 <span id="nav-11"></span>
 

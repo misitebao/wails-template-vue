@@ -138,7 +138,7 @@ wails init -n [你的应用名称] -t https://github.com/misitebao/wails-templat
 
 中文社区：
 
-- [QQ 群：1067173054](https://qm.qq.com/cgi-bin/qm/qr?k=LOe09XYqY0iTDGf5v4aGuoK7ZSn9NjAv&jump_from=webapi) - QQ 中文社区交流群
+- <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=utlUvDwtcNG5knHBLwVdMvG39WeHh7oj&jump_from=webapi">QQ 群：1067173054</a> - QQ 中文社区交流群
 
 <span id="nav-11"></span>
 
