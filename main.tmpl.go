@@ -33,7 +33,7 @@ func main() {
 		Frameless:         false,
 		StartHidden:       false,
 		HideWindowOnClose: false,
-		RGBA:              &options.RGBA{255,255,255,255},
+		RGBA:              &options.RGBA{255,255,255,0},
 		Assets:            assets,
 		Windows: &windows.Options{
 			WebviewIsTransparent:          true,

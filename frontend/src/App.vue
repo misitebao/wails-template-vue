@@ -1,16 +1,16 @@
 <template>
   <!-- Header -->
   <!-- 头部 -->
-  <div class="header">
+  <div class="header" data-wails-drag>
     <!-- navigation -->
     <!-- 导航 -->
-    <div class="nav">
+    <div class="nav" data-wails-no-drag>
       <router-link to="/">{{ $t("nav.home") }}</router-link>
       <router-link to="/about">{{ $t("nav.about") }}</router-link>
     </div>
     <!-- Menu -->
     <!-- 菜单 -->
-    <div class="menu">
+    <div class="menu" data-wails-no-drag>
       <div class="language">
         <div
           v-for="(item) in languages"
