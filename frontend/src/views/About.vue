@@ -48,21 +48,21 @@ export default {
 <style lang="scss">
 .about {
   .title {
-    margin: 20px auto 10px;
+    margin: 30px auto 10px;
     font-size: 38px;
     color: #a150b5;
     text-align: center;
   }
   .content {
     position: relative;
-    margin: 14px 20px;
+    margin: 36px 20px;
     .comeon {
       position: absolute;
-      left: 60px;
-      top: 26px;
+      left: 26px;
+      top: 38px;
       max-width: 66%;
       img {
-        width: 180px;
+        width: 220px;
         height: 180px;
       }
     }
