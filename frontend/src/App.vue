@@ -69,7 +69,7 @@ export default {
 
     }
     const onclickQuit = () => {
-      window.go.main.App.Quit()
+      window.runtime.Quit()
 
     }
 
@@ -88,22 +88,28 @@ export default {
 @import url("./assets/css/reset.css");
 @import url("./assets/css/font.css");
 
-html,
+html {
+  width: 100%;
+  height: 100%;
+}
 body {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
   font-family: "JetBrainsMono";
+  background-color: transparent;
 }
 
 #app {
   position: relative;
   // width: 900px;
   // height: 520px;
-  width: 100%;
   height: 100%;
+  margin-right: 1px;
+  border-radius: 6px;
   background-color: #dbbcef;
+  overflow: hidden;
 }
 .header {
   display: flex;
