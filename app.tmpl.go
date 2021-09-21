@@ -2,8 +2,6 @@ package main
 
 import (
 	"context"
-
-	"github.com/wailsapp/wails/v2/pkg/runtime"
 )
 
 // App struct
@@ -30,10 +28,4 @@ func (b *App) startup(ctx context.Context) {
 func (b *App) shutdown(ctx context.Context) {
 	// Perform your teardown here
 	// 在此处做一些资源释放的操作
-}
-
-// Quit Exit the application
-// Quit 退出应用
-func (b *App) Quit() {
-	runtime.Quit(b.ctx)
 }
