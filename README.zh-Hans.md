@@ -103,7 +103,7 @@ wails init -n [你的应用名称] -t https://github.com/misitebao/wails-templat
 
 - Vue - 使用 Vue 3.x 版本，具体内容可以参考[Vue3.x 官方文档](https://v3.vuejs.org/guide/introduction.html)。
 - Vue-Router - 使用 Vue-Router 4.x 版本，具体使用方式请参考[Vue-Router 官方文档](https://next.router.vuejs.org/)。
-- Vue-I18N - 使用 Vue-I18N 9.x 版本，具体使用方式请参考[Vue-I18N 官方文档](vue-i18n.intlify.dev/)。
+- Vue-I18N - 使用 Vue-I18N 9.x 版本，具体使用方式请参考[Vue-I18N 官方文档](https://vue-i18n.intlify.dev/)。
 
 然后您就可以参考 Wails 官方文档开始开发您的应用啦 🤞!
 
