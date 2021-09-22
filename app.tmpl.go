@@ -17,15 +17,22 @@ func NewApp() *App {
 
 // startup is called at application startup
 // startup 在应用程序启动时调用
-func (b *App) startup(ctx context.Context) {
+func (a *App) startup(ctx context.Context) {
 	// Perform your setup here
 	// 在这里执行初始化设置
-	b.ctx = ctx
+	a.ctx = ctx
+}
+
+// domReady is called after the front-end dom has been loaded
+// domReady 在前端Dom加载完毕后调用
+func (a App) domReady(ctx context.Context) {
+	// Add your action here
+	// 在这里添加你的操作
 }
 
 // shutdown is called at application termination
 // 在应用程序终止时被调用
-func (b *App) shutdown(ctx context.Context) {
+func (a *App) shutdown(ctx context.Context) {
 	// Perform your teardown here
 	// 在此处做一些资源释放的操作
 }
