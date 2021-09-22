@@ -55,7 +55,7 @@ wails-template-vue 模板是一个支持 Wails 应用的 Vue 模板，默认提�
 
 <span id="nav-3-1"></span>
 
-### 官方网站
+<!-- ### 官方网站 -->
 
 <span id="nav-3-2"></span>
 
@@ -80,7 +80,7 @@ wails-template-vue 模板是一个支持 Wails 应用的 Vue 模板，默认提�
 
 <span id="nav-6"></span>
 
-## 架构
+<!-- ## 架构 -->
 
 <span id="nav-7"></span>
 
@@ -148,15 +148,15 @@ wails init -n [你的应用名称] -t https://github.com/misitebao/wails-templat
 
 <span id="nav-12"></span>
 
-## 捐赠者
+<!-- ## 捐赠者 -->
 
 <span id="nav-13"></span>
 
-## 赞助商
+<!-- ## 赞助商 -->
 
 <span id="nav-14"></span>
 
-## 特别感谢
+<!-- ## 特别感谢 -->
 
 <span id="nav-15"></span>
 

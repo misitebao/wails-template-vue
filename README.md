@@ -55,7 +55,7 @@ The wails-template-vue template is a Vue template that supports Wails programs a
 
 <span id="nav-3-1"></span>
 
-### Official Website
+<!-- ### Official Website -->
 
 <span id="nav-3-2"></span>
 
@@ -80,7 +80,7 @@ I hope that Vue and its powerful community ecology can be used in Wails applicat
 
 <span id="nav-6"></span>
 
-## Architecture
+<!-- ## Architecture -->
 
 <span id="nav-7"></span>
 
@@ -148,15 +148,15 @@ Chinese Community:
 
 <span id="nav-12"></span>
 
-## Donators
+<!-- ## Donators -->
 
 <span id="nav-13"></span>
 
-## Sponsors
+<!-- ## Sponsors -->
 
 <span id="nav-14"></span>
 
-## Special Thanks
+<!-- ## Special Thanks -->
 
 <span id="nav-15"></span>
 
