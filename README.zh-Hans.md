@@ -11,6 +11,8 @@
   <a href="https://github.com/misitebao"><img alt="GitHub user" src="https://img.shields.io/badge/author-misitebao-brightgreen?style=flat-square"/></a>
   <a href="https://github.com/wailsapp/wails"><img alt="Gitter" src="https://img.shields.io/badge/For-wails-brightgreen?style=flat-square&color=ff3c3c"/></a>
   <a href="https://github.com/misitebao/awesome-wails"><img alt="Awesome-Wails" src="https://cdn.jsdelivr.net/gh/sindresorhus/awesome@main/media/badge-flat.svg"/></a>
+  <br/>
+  <img alt="support platform" src="https://img.shields.io/badge/support%20platform-win%20%7C%20mac%20%7C%20linux-brightgreen"/>
 </p>
 
 <span id="nav-1"></span>
@@ -73,6 +75,7 @@ wails-template-vue 模板是一个支持 Wails 应用的 Vue 模板，默认提�
 
 ## 功能特色
 
+- 兼容 windows、mac、linux 平台
 - 支持单页路由和国际化
 - 内置 Sass 预处理器
 - 跨平台一致的 UI 体验（内置 JetbrainsMono 字体包）
