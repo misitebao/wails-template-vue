@@ -7,7 +7,7 @@
     <!-- 底部按钮 -->
     <div class="link">
       <OpenLink
-        href="https://github.com/wailsapp/wails#nav-6"
+        href="https://wails.io/docs/gettingstarted/installation"
         class="btn start"
       >{{ $t('homepage.getting-started') }}</OpenLink>
       <OpenLink
