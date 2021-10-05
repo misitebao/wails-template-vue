@@ -12,7 +12,7 @@
   <a href="https://github.com/wailsapp/wails"><img alt="Gitter" src="https://img.shields.io/badge/For-wails-brightgreen?style=flat-square&color=ff3c3c"/></a>
   <a href="https://github.com/misitebao/awesome-wails"><img alt="Awesome-Wails" src="https://cdn.jsdelivr.net/gh/sindresorhus/awesome@main/media/badge-flat.svg"/></a>
   <br/>
-  <img alt="support platform" src="https://img.shields.io/badge/support%20platform-win%20%7C%20mac%20%7C%20linux-brightgreen"/>
+  <img alt="support platform" src="https://img.shields.io/badge/support%20platform-windows%20%7C%20macos%20%7C%20linux-brightgreen"/>
 </p>
 
 <span id="nav-1"></span>
@@ -75,7 +75,7 @@ I hope that Vue and its powerful community ecology can be used in Wails applicat
 
 ## Features
 
-- Compatible with windows, mac, linux platforms
+- Compatible with Windows, MacOS, Linux platforms
 - Support single page routing and i18n.
 - Built-in Sass preprocessor.
 - A consistent UI experience across platforms(Comes with JetbrainsMono font package).
