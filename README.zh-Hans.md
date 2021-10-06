@@ -12,7 +12,7 @@
   <a href="https://github.com/wailsapp/wails"><img alt="Gitter" src="https://img.shields.io/badge/For-wails-brightgreen?style=flat-square&color=ff3c3c"/></a>
   <a href="https://github.com/misitebao/awesome-wails"><img alt="Awesome-Wails" src="https://cdn.jsdelivr.net/gh/sindresorhus/awesome@main/media/badge-flat.svg"/></a>
   <br/>
-  <img alt="平台支持" src="https://img.shields.io/badge/support%20platform-windows%20%7C%20macos%20%7C%20linux-brightgreen"/>
+  <img alt="平台支持" src="https://img.shields.io/badge/support%20platform-windows%20%7C%20macos%20%7C%20linux-brightgreen?style=flat-square"/>
 </p>
 
 <span id="nav-1"></span>
