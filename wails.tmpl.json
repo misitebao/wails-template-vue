@@ -3,7 +3,7 @@
   "outputfilename": "{{.BinaryName}}",
   "assetdir": "frontend/dist",
   "frontend:install": "npm install",
-  "frontend:dev":"npm run build",
+  "frontend:dev":"",
   "frontend:build": "npm run build",
   "author": {
     "name": "{{.AuthorName}}",
