@@ -1,24 +1,20 @@
 {
   "name": "{{.ProjectName}}",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
-    "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "serve": "serve dist"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "author": "{{.AuthorName}}",
   "dependencies": {
-    "vue": "^3.0.0",
-    "vue-i18n": "^9.1.7",
-    "vue-router": "^4.0.0-0"
+    "vue": "^3.2.16",
+    "vue-i18n": "^9.1.9",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "sass": "^1.26.5",
-    "sass-loader": "^8.0.2",
-    "serve": "^12.0.0"
-  }
+    "@vitejs/plugin-vue": "^1.9.3",
+    "sass": "^1.43.4",
+    "vite": "^2.6.4"
+  },
+  "author": "{{.AuthorName}}"
 }
