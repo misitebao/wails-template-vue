@@ -69,7 +69,7 @@ wails-template-vue 模板是一个支持 Wails 应用的 Vue 模板，默认提�
 
 ## 图形演示
 
-[![演示截图](https://cdn.jsdelivr.net/gh/misitebao/CDN@main/preview/wails-template-vue-desktop.png "点击查看gif演示")](https://cdn.jsdelivr.net/gh/misitebao/CDN@main/preview/wails-template-vue.gif)
+[![演示截图](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/screenshots.png "点击查看gif演示")](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/preview.gif)
 
 <span id="nav-5"></span>
 

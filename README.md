@@ -69,7 +69,7 @@ I hope that Vue and its powerful community ecology can be used in Wails applicat
 
 ## Graphic Demo
 
-[![Demo Screenshot](https://cdn.jsdelivr.net/gh/misitebao/CDN@main/preview/wails-template-vue-desktop.png "click to view gif demo")](https://cdn.jsdelivr.net/gh/misitebao/CDN@main/preview/wails-template-vue.gif)
+[![Demo Screenshot](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/screenshots.png "click to view gif demo")](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/preview.gif)
 
 <span id="nav-5"></span>
 
