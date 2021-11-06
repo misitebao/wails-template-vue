@@ -148,6 +148,7 @@ Chinese Community:
 ## Part Of Users
 
 - [Wails API Demos](https://github.com/misitebao/wails-api-demos) - A sample program for exploring Wails API, inspired by [Electron API Demos](https://github.com/electron/electron-api-demos)
+- [Hayate](https://github.com/misitebao/hayate) - Windows application installation boot program implemented using Wails.
 
 <span id="nav-12"></span>
 

@@ -148,6 +148,7 @@ wails init -n [你的应用名称] -t https://github.com/misitebao/wails-templat
 ## 部分用户
 
 - [Wails API Demos](https://github.com/misitebao/wails-api-demos) - 一个用于探索 Wails API 的示例程序，灵感来源自 [Electron API Demos](https://github.com/electron/electron-api-demos)
+- [Hayate](https://github.com/misitebao/hayate) - 使用 Wails 实现的 Windows 应用安装引导程序。
 
 <span id="nav-12"></span>
 
