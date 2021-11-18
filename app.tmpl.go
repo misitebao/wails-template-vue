@@ -25,7 +25,7 @@ func (a *App) startup(ctx context.Context) {
 
 // domReady is called after the front-end dom has been loaded
 // domReady 在前端Dom加载完毕后调用
-func (a App) domReady(ctx context.Context) {
+func (a *App) domReady(ctx context.Context) {
 	// Add your action here
 	// 在这里添加你的操作
 }
