@@ -5,6 +5,6 @@ module.exports = {
   // Package the css into a separate file
   // 将css打包到单独的文件
   css: {
-    extract: "true"
-  }
-}
+    extract: "true",
+  },
+};

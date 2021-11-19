@@ -16,15 +16,13 @@ export default {
       // You cannot use the a tag directly, you need to call the Go method here to open the link using the default browser.
       // 不能直接使用a标签，需要在这里调用Go方法以使用默认浏览器打开链接。
 
-      window.runtime.BrowserOpenURL(props.href)
-
-    }
+      window.runtime.BrowserOpenURL(props.href);
+    };
 
     return {
-      onClickhandle
-    }
-  }
-
+      onClickhandle,
+    };
+  },
 };
 </script>
 

@@ -9,11 +9,13 @@
       <OpenLink
         href="https://wails.io/docs/gettingstarted/installation"
         class="btn start"
-      >{{ $t('homepage.getting-started') }}</OpenLink>
+        >{{ $t("homepage.getting-started") }}</OpenLink
+      >
       <OpenLink
         href="https://github.com/misitebao/wails-template-vue"
         class="btn star"
-      >{{ $t('homepage.star-me') }}</OpenLink>
+        >{{ $t("homepage.star-me") }}</OpenLink
+      >
     </div>
   </div>
 </template>
@@ -25,7 +27,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    HelloWorld,
   },
   setup() {
     return {};

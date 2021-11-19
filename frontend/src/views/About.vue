@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <!-- Title -->
-    <div class="title">{{ $t('aboutpage.title') }}</div>
+    <div class="title">{{ $t("aboutpage.title") }}</div>
     <!-- Information -->
     <!-- 信息 -->
     <div class="content">
@@ -10,40 +10,42 @@
       </div>
       <ul class="info">
         <li class="info-item">
-          <div class="name">{{ $t('aboutpage.project-repository') }}</div>
+          <div class="name">{{ $t("aboutpage.project-repository") }}</div>
           <OpenLink
             class="link"
             href="https://github.com/misitebao/wails-template-vue"
-          >https://github.com/misitebao/wails-template-vue</OpenLink>
+            >https://github.com/misitebao/wails-template-vue</OpenLink
+          >
         </li>
         <li class="info-item">
-          <div class="name">{{ $t('aboutpage.wails-repository') }}</div>
-          <OpenLink
-            class="link"
-            href="https://github.com/wailsapp/wails"
-          >https://github.com/wailsapp/wails</OpenLink>
+          <div class="name">{{ $t("aboutpage.wails-repository") }}</div>
+          <OpenLink class="link" href="https://github.com/wailsapp/wails"
+            >https://github.com/wailsapp/wails</OpenLink
+          >
         </li>
         <li class="info-item">
-          <div class="name">{{ $t('aboutpage.author') }}</div>
-          <OpenLink class="link" href="https://github.com/misitebao">{{ $t('aboutpage.misitebao') }}</OpenLink>
+          <div class="name">{{ $t("aboutpage.author") }}</div>
+          <OpenLink class="link" href="https://github.com/misitebao">{{
+            $t("aboutpage.misitebao")
+          }}</OpenLink>
         </li>
       </ul>
     </div>
 
     <!-- Thanks -->
     <!-- 谢语 -->
-    <div class="thank">{{ $t('aboutpage.thanks') }}</div>
+    <div class="thank">{{ $t("aboutpage.thanks") }}</div>
   </div>
 </template>
 <script>
-import comeonGif from '@/assets/images/comeon.gif'
+import comeonGif from "@/assets/images/comeon.gif";
 export default {
   setup() {
     return {
-      comeonGif
-    }
+      comeonGif,
+    };
   },
-}
+};
 </script>
 <style lang="scss">
 .about {

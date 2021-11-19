@@ -1,13 +1,13 @@
-import { createI18n } from 'vue-i18n'
+import { createI18n } from "vue-i18n";
 
 const i18n = createI18n({
   locale: "en",
-  fallbackLocale: 'en',
+  fallbackLocale: "en",
   messages: {
-    "zh-Hans": require('./messages/zh-Hans.json'),
-    "en": require('./messages/en.json'),
-    "fr": require('./messages/fr.json')
-  }
-})
+    "zh-Hans": require("./messages/zh-Hans.json"),
+    en: require("./messages/en.json"),
+    fr: require("./messages/fr.json"),
+  },
+});
 
-export default i18n
+export default i18n;
