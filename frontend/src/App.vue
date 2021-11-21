@@ -59,7 +59,6 @@ export default {
     // Monitor current language changes
     // 监听当前语言变动
     watch(locale, (newValue, oldValue) => {
-      console.log("The new language is: " + locale.value);
       i18n.global.locale = newValue;
     });
 
