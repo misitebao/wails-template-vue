@@ -69,7 +69,7 @@ wails-template-vue 模板是一个支持 Wails 应用的 Vue 模板，默认提�
 
 ## 图形演示
 
-[![演示截图](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/screenshots.png "点击查看gif演示")](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/preview.gif)
+[![演示截图](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/preview.png "点击查看gif演示")](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/preview.gif)
 
 <span id="nav-5"></span>
 
@@ -108,7 +108,7 @@ wails init -n [你的应用名称] -t https://github.com/misitebao/wails-templat
 - Vue-Router - 使用 Vue-Router 4.x 版本，具体使用方式请参考[Vue-Router 官方文档](https://next.router.vuejs.org/)。
 - Vue-I18N - 使用 Vue-I18N 9.x 版本，具体使用方式请参考[Vue-I18N 官方文档](https://vue-i18n.intlify.dev/)。
 
-然后您就可以参考 Wails 官方文档开始开发您的应用啦 🤞!
+然后您就可以参考 [Wails 官方文档](https://wails.io)开始开发您的应用啦 🤞!
 
 <span id="nav-8"></span>
 

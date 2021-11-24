@@ -69,7 +69,7 @@ I hope that Vue and its powerful community ecology can be used in Wails applicat
 
 ## Graphic Demo
 
-[![Demo Screenshot](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/screenshots.png "click to view gif demo")](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/preview.gif)
+[![Demo Screenshot](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/preview.png "click to view gif demo")](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/preview.gif)
 
 <span id="nav-5"></span>
 
@@ -108,7 +108,7 @@ The front-end part uses Vue Vue-Router and Vue-I18N:
 - Vue-Router - Use Vue-Router 4.x version, please refer to the official [Vue-Router Documents](https://next.router.vuejs.org/) for specific usage.
 - Vue-I18N - Use Vue-I18N 9.x version, please refer to official [Vue-I18N Documents](https://vue-i18n.intlify.dev/) for specific usage.
 
-Then you can refer to the official Wails document to start developing your application🤞.
+Then you can refer to the official [Wails document](https://wails.io) to start developing your application🤞.
 
 <span id="nav-8"></span>
 
