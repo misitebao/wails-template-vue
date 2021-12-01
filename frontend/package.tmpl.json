@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:watch": "vite build -w",
     "serve": "vite preview"
   },
   "dependencies": {
