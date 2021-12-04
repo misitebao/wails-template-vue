@@ -9,7 +9,7 @@
     <img alt="GitHub" src="https://img.shields.io/github/license/misitebao/wails-template-vue?style=flat-square"/>
   </a>
   <a href="https://github.com/misitebao/standard-repository">
-    <img alt="GitHub" src="https://img.shields.io/badge/Readme--Style-standard--repository-brightgreen?style=flat-square&color=f83500"/>
+    <img alt="GitHub" src="https://cdn.jsdelivr.net/gh/misitebao/standard-repository@main/assets/badge_flat-square.svg"/>
   </a>
   <a href="https://github.com/misitebao/wails-template-vue">
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/misitebao/wails-template-vue?style=flat-square"/>
