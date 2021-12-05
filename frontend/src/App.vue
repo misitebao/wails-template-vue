@@ -104,7 +104,7 @@ body {
   height: 100%;
   margin-right: 1px;
   border-radius: 6px;
-  background-color: #dbbcef;
+  background-color: rgba(219,188,239,.9);
   overflow: hidden;
 }
 .header {
@@ -115,7 +115,7 @@ body {
   justify-content: space-between;
   height: 50px;
   padding: 0 10px;
-  background-color: #ab7edc;
+  background-color: rgba(171,126,220,.9);
   .nav {
     a {
       display: inline-block;
