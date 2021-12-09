@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build  --emptyOutDir",
+    "build:watch": "vue-tsc --noEmit && vite build --watch  --emptyOutDir",
     "preview": "vite preview"
   },
   "dependencies": {

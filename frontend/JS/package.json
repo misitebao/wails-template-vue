@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "build:watch": "vite build -w --emptyOutDir",
+    "build": "vite build --emptyOutDir",
+    "build:watch": "vite build --watch --emptyOutDir",
     "preview": "vite preview"
   },
   "dependencies": {
