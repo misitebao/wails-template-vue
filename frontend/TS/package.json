@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build  --emptyOutDir",
+    "build:finally": "vue-tsc --noEmit && vite build  --emptyOutDir",
+    "build": "vite build  --emptyOutDir",
     "build:watch": "vue-tsc --noEmit && vite build --watch  --emptyOutDir",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.23"
+    "vue": "^3.2.23",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.10.2",

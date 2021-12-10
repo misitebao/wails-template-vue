@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "cp -f index.html JS/index.html &cp -f index.html TS/index.html && rm -rf index.html"
+    "postinstall": "cp -f index.js.html JS/index.html & cp -f index.ts.html TS/index.html && rm -rf *.html"
   },
   "author": "{{.AuthorName}}",
   "license": "ISC",
