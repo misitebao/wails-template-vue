@@ -9,8 +9,8 @@
   },
   "author": "{{.AuthorName}}",
   "license": "ISC",
-  "workspaces": [
-    "JS",
-    "TS"
-  ]
+  "workspaces": ["JS", "TS"],
+  "engines": {
+    "npm": "^7.0.0"
+  }
 }
