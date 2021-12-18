@@ -67,7 +67,7 @@
 
 ## Introductions
 
-The wails-template-vue template is a Vue template that supports Wails programs and provides Router and i18n functions by default.
+The wails-template-vue template is a Vue template that supports [Wails](https://github.com/wailsapp/wails) programs and provides Router and i18n functions by default.
 
 <span id="nav-3-1"></span>
 
@@ -94,6 +94,7 @@ I hope that Vue and its powerful community ecology can be used in Wails applicat
 - Built-in Sass preprocessor.
 - A consistent UI experience across platforms(Comes with JetbrainsMono font package).
 - Comes with a complete API example(Currently under development and testing...).
+- Support JavaScript and TypeScript
 
 <span id="nav-6"></span>
 
@@ -114,13 +115,18 @@ flag description:
 - n - The name of the application to be created
 - t - Template name, supports built-in template names and third-party templates in the form of hyperlinks
 
-### Front-end reference document
+After the project is created, the JavaScript template is used by default. You can change the value of the `"frontend:build"` field in the `wails.json` file to `"npm run build -w ts"` to use the TypeScript template.
+
+Note: In order to support TypeScript templates under the existing functions, the front-end part uses the NPM workspace function, so the NPM version must be `>=7.0.0`, please run `npm -v` to check your NPM version.
+
+### Reference document
 
 The front-end part uses Vue Vue-Router and Vue-I18N:
 
 - Vue - Use vue3.x version, please refer to the official [Vue3.x Documents](https://v3.vuejs.org/guide/introduction.html) for specific usage.
 - Vue-Router - Use Vue-Router 4.x version, please refer to the official [Vue-Router Documents](https://next.router.vuejs.org/) for specific usage.
 - Vue-I18N - Use Vue-I18N 9.x version, please refer to official [Vue-I18N Documents](https://vue-i18n.intlify.dev/) for specific usage.
+- TypeScript - Please refer to official [TypeScript Documents](https://www.typescriptlang.org/) for specific usage.
 
 Then you can refer to the official [Wails document](https://wails.io) to start developing your application🤞.
 

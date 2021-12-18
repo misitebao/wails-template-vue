@@ -1,0 +1,21 @@
+{
+  "name": "ts",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build:finally": "vue-tsc --noEmit && vite build  --emptyOutDir",
+    "build": "vite build  --emptyOutDir",
+    "build:watch": "vue-tsc --noEmit && vite build --watch  --emptyOutDir",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.23",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.10.2",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.0",
+    "vue-tsc": "^0.28.10"
+  }
+}

@@ -1,21 +1,16 @@
 {
   "name": "{{.ProjectName}}",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "description": "",
+  "main": "",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "build:watch": "vite build -w",
-    "serve": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cp -f index.js.html JS/index.html & cp -f index.ts.html TS/index.html && rm -rf *.html"
   },
-  "dependencies": {
-    "vue": "^3.2.16",
-    "vue-i18n": "^9.1.9",
-    "vue-router": "^4.0.12"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^1.9.3",
-    "sass": "^1.43.4",
-    "vite": "^2.6.4"
-  },
-  "author": "{{.AuthorName}}"
+  "author": "{{.AuthorName}}",
+  "license": "ISC",
+  "workspaces": [
+    "JS",
+    "TS"
+  ]
 }
