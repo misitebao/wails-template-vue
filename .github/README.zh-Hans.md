@@ -138,7 +138,7 @@ wails init -n [你的应用名称] -t https://github.com/misitebao/wails-templat
 <a href="https://github.com/misitebao"><img src="https://github.com/misitebao.png" width="40" height="40" alt="misitebao" title="misitebao"/></a>
 
 <details>
-  <summary>点我 打开/关闭 贡献者列表</summary>
+  <summary>点我 打开/关闭 维护者列表</summary>
 
 - [米司特包](https://github.com/misitebao) - 项目作者，全栈工程师。
 
@@ -187,4 +187,4 @@ wails init -n [你的应用名称] -t https://github.com/misitebao/wails-templat
 
 ## 版权许可
 
-[License MIT](LICENSE)
+[License MIT](../LICENSE)

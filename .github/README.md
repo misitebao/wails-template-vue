@@ -139,7 +139,7 @@ Thanks to the maintainers of these projects:
 <a href="https://github.com/misitebao"><img src="https://github.com/misitebao.png" width="40" height="40" alt="misitebao" title="misitebao"/></a>
 
 <details>
-  <summary>Click me to Open/Close the contributors listing</summary>
+  <summary>Click me to Open/Close the maintainer listing</summary>
 
 - [Misitebao](https://github.com/misitebao) - Project author, full stack engineer.
 
@@ -188,4 +188,4 @@ Chinese Community:
 
 ## License
 
-[License MIT](LICENSE)
+[License MIT](../LICENSE)
