@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/misitebao/CDN@main/logo/wails-template-vue.png" height="280" />
+  <img src="https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/.github/logo.png" height="280" />
 </p>
 <p align="center">
   基于Vue和Vue-Router的Wails模板
@@ -82,7 +82,7 @@ wails-template-vue 模板是一个支持 [Wails](https://github.com/wailsapp/wai
 
 ## 图形演示
 
-[![演示截图](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/preview.png "点击查看gif演示")](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/preview.gif)
+[![演示截图](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/.github/preview.png "点击查看gif演示")](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/.github/preview.gif)
 
 <span id="nav-5"></span>
 
