@@ -11,6 +11,7 @@
   "license": "ISC",
   "workspaces": ["JS", "TS"],
   "engines": {
-    "npm": ">=7.0.0"
+    "npm": ">=7.0.0",
+    "node": ">=15.0.0"
   }
 }

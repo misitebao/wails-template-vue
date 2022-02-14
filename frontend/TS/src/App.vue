@@ -102,8 +102,6 @@ body {
   // width: 900px;
   // height: 520px;
   height: 100%;
-  margin-right: 1px;
-  border-radius: 6px;
   background-color: rgba(219,188,239,.9);
   overflow: hidden;
 }

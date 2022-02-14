@@ -34,15 +34,19 @@ func main() {
 		MaxHeight:         1200,
 		DisableResize:     false,
 		Fullscreen:        false,
-		Frameless:         true,
+		Frameless:         false,
 		StartHidden:       false,
 		HideWindowOnClose: false,
-		RGBA:              &options.RGBA{255, 255, 255, 0},
+		RGBA:              &options.RGBA{R: 255, G: 255, B: 255, A: 0},
 		Assets:            assets,
+		Menu:              nil,
+		Logger:            nil,
 		LogLevel:          logger.DEBUG,
 		OnStartup:         app.startup,
 		OnDomReady:        app.domReady,
+		OnBeforeClose:     app.beforeClose,
 		OnShutdown:        app.shutdown,
+		WindowStartState:  options.Normal,
 		Bind: []interface{}{
 			app,
 		},
@@ -50,13 +54,23 @@ func main() {
 		// Windows平台特定选项
 		Windows: &windows.Options{
 			WebviewIsTransparent: true,
-			WindowIsTranslucent:  true,
+			WindowIsTranslucent:  false,
 			DisableWindowIcon:    false,
+			// DisableFramelessWindowDecorations: false,
+			WebviewUserDataPath: "",
 		},
 		// Mac platform specific options
 		// Mac平台特定选项
 		Mac: &mac.Options{
-			TitleBar:             mac.TitleBarHiddenInset(),
+			TitleBar: &mac.TitleBar{
+				TitlebarAppearsTransparent: true,
+				HideTitle:                  false,
+				HideTitleBar:               false,
+				FullSizeContent:            false,
+				UseToolbar:                 false,
+				HideToolbarSeparator:       true,
+			},
+			Appearance:           mac.NSAppearanceNameDarkAqua,
 			WebviewIsTransparent: true,
 			WindowIsTranslucent:  true,
 			About: &mac.AboutInfo{
