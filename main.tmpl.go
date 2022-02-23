@@ -26,12 +26,12 @@ func main() {
 	// 使用选项创建应用
 	err := wails.Run(&options.App{
 		Title:             "{{.ProjectName}}",
-		Width:             1600,
-		Height:            1000,
-		MinWidth:          1600,
-		MinHeight:         1000,
-		MaxWidth:          2000,
-		MaxHeight:         1200,
+		Width:             900,
+		Height:            600,
+		MinWidth:          900,
+		MinHeight:         600,
+		MaxWidth:          1200,
+		MaxHeight:         800,
 		DisableResize:     false,
 		Fullscreen:        false,
 		Frameless:         false,
