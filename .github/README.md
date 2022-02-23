@@ -55,7 +55,7 @@
 - [Contributors](#nav-9)
 - [Community Exchange](#nav-10)
 - [Part Of Users](#nav-11)
-- [Release History](CHANGE.md)
+- [Release History](CHANGELOG.md)
 - [Donators](#nav-12)
 - [Sponsors](#nav-13)
 - [Special Thanks](#nav-14)
