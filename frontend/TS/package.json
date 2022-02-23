@@ -5,7 +5,7 @@
     "dev": "vite",
     "build:finally": "vue-tsc --noEmit && vite build  --emptyOutDir",
     "build": "vite build  --emptyOutDir",
-    "build:watch": "vue-tsc --noEmit && vite build --watch  --emptyOutDir",
+    "build:watch": "vite build --watch  --emptyOutDir",
     "preview": "vite preview"
   },
   "dependencies": {
