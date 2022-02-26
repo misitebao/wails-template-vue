@@ -85,6 +85,8 @@ I hope that Vue and its powerful community ecology can be used in Wails applicat
 
 [![Demo Screenshot](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/.github/preview.png "click to view gif demo")](https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/.github/preview.gif)
 
+[![A Wails development template based on Vue](https://res.cloudinary.com/marcomontalbano/image/upload/v1645870415/video_to_markdown/images/youtube--GLPBdkS7bCs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=GLPBdkS7bCs "A Wails development template based on Vue")
+
 <span id="nav-5"></span>
 
 ## Features
