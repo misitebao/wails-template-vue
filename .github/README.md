@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/misitebao/wails-template-vue@main/.github/logo.png" height="280" />
+  <img src="./logo.gif" height="280" />
 </p>
 <p align="center">
   A Wails template based on Vue and Vue-Router
