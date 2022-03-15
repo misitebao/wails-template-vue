@@ -2,15 +2,15 @@
   "name": "{{.ProjectName}}",
   "private": true,
   "version": "0.1.0",
-  "description": "",
+  "description": "A Wails Template",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "((cp -f index.js.html JS/index.html) & (cp -f index.ts.html TS/index.html))& rm -rf *.html"
+    "postinstall": "((cp -f index.js.html packages/javascript/index.html) & (cp -f index.ts.html packages/typescript/index.html))& rm -rf *.html"
   },
   "author": "{{.AuthorName}}",
-  "license": "ISC",
-  "workspaces": ["JS", "TS"],
+  "license": "MIT",
+  "workspaces": ["packages/*"],
   "engines": {
     "node": ">=15.0.0",
     "npm": ">=7.0.0"
