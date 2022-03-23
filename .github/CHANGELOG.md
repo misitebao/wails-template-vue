@@ -10,6 +10,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Added
 
+- Optimize the basic template of the front-end project page by [@misitebao](https://github.com/misitebao)
 - `Typescript` templates add internationalization support by [@misitebao](https://github.com/misitebao)
 
 ### Changed
