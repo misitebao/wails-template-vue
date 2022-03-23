@@ -1,16 +1,16 @@
 <template>
   <div class="about">
     <!-- Title -->
-    <div class="title">{{ "Wails Template Vue" }}</div>
+    <div class="title">{{ t("aboutpage.title") }}</div>
     <!-- Information -->
     <!-- 信息 -->
     <div class="content">
       <div class="comeon">
-        <img :src="comeonGif" alt />
+        <img :src="comeonGif" alt="Gif" />
       </div>
       <ul class="info">
         <li class="info-item">
-          <div class="name">{{ "Project Repository" }}</div>
+          <div class="name">{{ t("aboutpage.project-repository") }}</div>
           <OpenLink
             class="link"
             href="https://github.com/misitebao/wails-template-vue"
@@ -18,15 +18,15 @@
           >
         </li>
         <li class="info-item">
-          <div class="name">{{ "Wails Repository" }}</div>
+          <div class="name">{{ t("aboutpage.wails-repository") }}</div>
           <OpenLink class="link" href="https://github.com/wailsapp/wails"
             >https://github.com/wailsapp/wails</OpenLink
           >
         </li>
         <li class="info-item">
-          <div class="name">{{ "Author" }}</div>
+          <div class="name">{{ t("aboutpage.author") }}</div>
           <OpenLink class="link" href="https://github.com/misitebao">{{
-            "Misitebao"
+            t("aboutpage.misitebao")
           }}</OpenLink>
         </li>
       </ul>
@@ -34,18 +34,23 @@
 
     <!-- Thanks -->
     <!-- 谢语 -->
-    <div class="thank">{{ "Thank you all for your support🙏!" }}</div>
+    <div class="thank">{{ t("aboutpage.thanks") }}</div>
   </div>
 </template>
 <script lang="ts">
+import { defineComponent } from "vue";
+import { useI18n } from "vue-i18n";
 import comeonGif from "@/assets/images/comeon.gif";
-export default {
+
+export default defineComponent({
   setup() {
+    const { t } = useI18n({ useScope: "global" });
     return {
+      t,
       comeonGif,
     };
   },
-};
+});
 </script>
 <style lang="scss">
 .about {

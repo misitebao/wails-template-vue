@@ -7,4 +7,8 @@ import i18n from "@/i18n";
 // 注册全局通用组件
 import publicComponents from "@/components/public";
 
-createApp(App).use(router).use(i18n).use(publicComponents).mount("#app");
+const app = createApp(App);
+
+app.use(publicComponents);
+
+app.use(router).use(i18n).mount("#app");

@@ -5,8 +5,8 @@
 </template>
 
 <script lang="ts">
-// import i18n from "@/i18n";
-export default {
+import { defineComponent } from "vue";
+export default defineComponent({
   name: "OpenLink",
   props: {
     href: String,
@@ -23,7 +23,7 @@ export default {
       onClickhandle,
     };
   },
-};
+});
 </script>
 
 <style lang="scss">

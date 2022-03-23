@@ -5,13 +5,13 @@
     <!-- navigation -->
     <!-- 导航 -->
     <div class="nav" data-wails-no-drag>
-      <router-link to="/">{{ "Home" }}</router-link>
-      <router-link to="/about">{{ "About" }}</router-link>
+      <router-link to="/">{{ t("nav.home") }}</router-link>
+      <router-link to="/about">{{ t("nav.about") }}</router-link>
     </div>
     <!-- Menu -->
     <!-- 菜单 -->
     <div class="menu" data-wails-no-drag>
-      <!-- <div class="language">
+      <div class="language">
         <div
           v-for="item in languages"
           :key="item"
@@ -19,14 +19,14 @@
           @click="onclickLanguageHandle(item)"
           class="lang-item"
         >
-          {{ $t("languages." + item) }}
+          {{ t("languages." + item) }}
         </div>
-      </div> -->
+      </div>
       <div class="bar">
         <div class="bar-btn" @click="onclickMinimise">
-          {{ "Minimise" }}
+          {{ t("topbar.minimise") }}
         </div>
-        <div class="bar-btn" @click="onclickQuit">{{ "Quit" }}</div>
+        <div class="bar-btn" @click="onclickQuit">{{ t("topbar.quit") }}</div>
       </div>
     </div>
   </div>
@@ -38,29 +38,21 @@
 </template>
 
 <script lang="ts">
-import { ref, watch } from "vue";
-// import i18n from "@/i18n";
+import { defineComponent } from "vue";
+import { useI18n } from "vue-i18n";
 
-export default {
+export default defineComponent({
   setup() {
+    const { t, availableLocales, locale } = useI18n({ useScope: "global" });
     // List of supported languages
     // 支持的语言列表
-    // const languages = i18n.global.availableLocales;
-    // Current language
-    // 当前语言
-    // const locale = ref("zh-Hans");
-    // locale.value = i18n.global.locale;
+    const languages = availableLocales;
 
     // Click to switch language
     // 点击切换语言
-    // const onclickLanguageHandle = (item) => {
-    //   item !== locale.value ? (locale.value = item) : false;
-    // };
-    // Monitor current language changes
-    // 监听当前语言变动
-    // watch(locale, (newValue, oldValue) => {
-    //   i18n.global.locale = newValue;
-    // });
+    const onclickLanguageHandle = (item: string) => {
+      item !== locale.value ? (locale.value = item) : false;
+    };
 
     const onclickMinimise = () => {
       window.runtime.WindowMinimise();
@@ -70,14 +62,15 @@ export default {
     };
 
     return {
-      // languages,
-      // locale,
-      // onclickLanguageHandle,
+      t,
+      languages,
+      locale,
+      onclickLanguageHandle,
       onclickMinimise,
       onclickQuit,
     };
   },
-};
+});
 </script>
 
 <style lang="scss">
@@ -102,7 +95,7 @@ body {
   // width: 900px;
   // height: 520px;
   height: 100%;
-  background-color: rgba(219,188,239,.9);
+  background-color: rgba(219, 188, 239, 0.9);
   overflow: hidden;
 }
 .header {
@@ -113,7 +106,7 @@ body {
   justify-content: space-between;
   height: 50px;
   padding: 0 10px;
-  background-color: rgba(171,126,220,.9);
+  background-color: rgba(171, 126, 220, 0.9);
   .nav {
     a {
       display: inline-block;

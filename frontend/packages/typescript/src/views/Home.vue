@@ -2,7 +2,7 @@
   <div class="home">
     <!-- Logo -->
     <img class="logo" alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to use Wails program developed based on Vue" />
+    <HelloWorld :msg="t('homepage.welcome')" />
     <!-- Bottom button -->
     <!-- 底部按钮 -->
     <div class="link">
@@ -21,18 +21,22 @@
 </template>
 
 <script lang="ts">
-// @ is an alias to /src
+import { defineComponent } from "vue";
+import { useI18n } from "vue-i18n";
 import HelloWorld from "@/components/HelloWorld.vue";
 
-export default {
+export default defineComponent({
   name: "Home",
   components: {
     HelloWorld,
   },
   setup() {
-    return {};
+    const { t } = useI18n({ useScope: "global" });
+    return {
+      t,
+    };
   },
-};
+});
 </script>
 <style lang="scss">
 .home {

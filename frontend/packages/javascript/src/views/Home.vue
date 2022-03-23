@@ -2,26 +2,26 @@
   <div class="home">
     <!-- Logo -->
     <img class="logo" alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld :msg="$t('homepage.welcome')" />
+    <HelloWorld :msg="t('homepage.welcome')" />
     <!-- Bottom button -->
     <!-- 底部按钮 -->
     <div class="link">
       <OpenLink
         href="https://wails.io/docs/gettingstarted/installation"
         class="btn start"
-        >{{ $t("homepage.getting-started") }}</OpenLink
+        >{{ t("homepage.getting-started") }}</OpenLink
       >
       <OpenLink
         href="https://github.com/misitebao/wails-template-vue"
         class="btn star"
-        >{{ $t("homepage.star-me") }}</OpenLink
+        >{{ t("homepage.star-me") }}</OpenLink
       >
     </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+import { useI18n } from "vue-i18n";
 import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
@@ -30,7 +30,10 @@ export default {
     HelloWorld,
   },
   setup() {
-    return {};
+    const { t } = useI18n();
+    return {
+      t,
+    };
   },
 };
 </script>
