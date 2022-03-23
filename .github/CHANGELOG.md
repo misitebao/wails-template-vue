@@ -6,6 +6,16 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+## [v2.0.0-beta.7] - 2022-03-23
+
+### Added
+
+- `Typescript` templates add internationalization support by [@misitebao](https://github.com/misitebao)
+
+### Changed
+
+- Replaced `Javascript` template `vue-i18n` with `composition-api` by [@misitebao](https://github.com/misitebao)
+
 ## [v2.0.0-beta.6] - 2022-03-16
 
 ### Changed
@@ -32,7 +42,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 - Modify window size by [@crushonyou18](https://github.com/crushonyou18)
 
-[unreleased]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.6...HEAD
+[unreleased]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.7...HEAD
+[v2.0.0-beta.7]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.6...v2.0.0-beta.7
 [v2.0.0-beta.6]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.5...v2.0.0-beta.6
 [v2.0.0-beta.5]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.4...v2.0.0-beta.5
 [v2.0.0-beta.4]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.3...v2.0.0-beta.4
