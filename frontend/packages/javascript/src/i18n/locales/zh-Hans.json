@@ -14,8 +14,8 @@
   },
   "homepage": {
     "welcome": "欢迎使用基于Vue开发的Wails程序",
-    "getting-started": "新手入门",
-    "star-me": "给我点星"
+    "getting-started": "快速入门",
+    "star-me": "Github"
   },
   "aboutpage": {
     "title": "Wails Template Vue",
