@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.gif" height="280" />
+  <img src="./logo.png" height="280" />
 </p>
 <p align="center">
   A Wails template based on Vue and Vue-Router

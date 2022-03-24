@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.gif" height="280" />
+  <img src="./logo.png" height="280" />
 </p>
 <p align="center">
   基于Vue和Vue-Router的Wails模板
