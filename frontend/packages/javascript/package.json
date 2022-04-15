@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
-    "build:watch": "vite build --watch --emptyOutDir",
+    "build:dev": "vite build --mode development --emptyOutDir",
+    "build:dev:watch": "vite build --mode development --watch --emptyOutDir",
     "preview": "vite preview"
   },
   "dependencies": {

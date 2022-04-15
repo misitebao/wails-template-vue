@@ -4,8 +4,9 @@
   "assetdir": "frontend/dist",
   "frontend:install": "npm install",
   "frontend:build": "npm run build -w js",
-  "frontend:dev:watcher": "npm run build:watch -w js",
-  "debounceMS": 1500,
+  "frontend:dev": "npm run build:dev -w js",
+  "frontend:dev:watcher": "npm run build:dev:watch -w js",
+  "debounceMS": 1200,
   "author": {
     "name": "{{.AuthorName}}",
     "email": "{{.AuthorEmail}}"
