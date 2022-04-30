@@ -6,6 +6,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import { BrowserOpenURL } from "../../../../../wailsjs/runtime";
 export default defineComponent({
   name: "OpenLink",
   props: {
@@ -16,7 +17,7 @@ export default defineComponent({
       // You cannot use the a tag directly, you need to call the Go method here to open the link using the default browser.
       // 不能直接使用a标签，需要在这里调用Go方法以使用默认浏览器打开链接。
 
-      window.runtime.BrowserOpenURL(props.href);
+      BrowserOpenURL(props.href);
     };
 
     return {

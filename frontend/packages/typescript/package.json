@@ -1,11 +1,10 @@
 {
   "name": "ts",
+  "private": true,
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
-    "build:finally": "vue-tsc --noEmit && vite build  --emptyOutDir",
-    "build:dev": "vite build --mode development --emptyOutDir",
-    "build:dev:watch": "vite build --mode development --watch --emptyOutDir",
+    "build":"vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -15,7 +14,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
     "sass": "^1.49.9",
-    "typescript": "^4.4.4",
+    "typescript": "^4.5.4",
     "vite": "^2.9.2",
     "vue-tsc": "^0.28.10",
     "vite-plugin-html": "^3.2.0"
