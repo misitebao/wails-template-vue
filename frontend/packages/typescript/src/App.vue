@@ -35,7 +35,7 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import { useI18n } from "vue-i18n";
-import runtime from "../../../wailsjs/runtime";
+import { WindowMinimise, Quit } from "../../../wailsjs/runtime";
 
 export default defineComponent({
   setup() {
@@ -51,10 +51,10 @@ export default defineComponent({
     };
 
     const onclickMinimise = () => {
-      runtime.WindowMinimise();
+      WindowMinimise();
     };
     const onclickQuit = () => {
-      runtime.Quit();
+      Quit();
     };
 
     return {
