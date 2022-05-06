@@ -152,6 +152,7 @@ Thanks to the maintainers of these projects:
 Thank you to all the contributors who participated in the development of wails-template-vue. [Contributors](https://github.com/misitebao/wails-template-vue/graphs/contributors)
 
 <a href="https://github.com/crushonyou18"><img src="https://github.com/crushonyou18.png" width="40" height="40" alt="crushonyou18" title="crushonyou18"/></a>
+<a href="https://github.com/daoif"><img src="https://github.com/daoif.png" width="40" height="40" alt="daoif" title="daoif"/></a>
 
 <span id="nav-10"></span>
 
