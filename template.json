@@ -1,6 +1,5 @@
 {
   "name": "wails-template-vue",
-  "version": "2.0.0-beta.7",
   "shortname": "vue",
   "author": "Misitebao <i@misitebao.com>",
   "description": "A template using vue and vue-router",

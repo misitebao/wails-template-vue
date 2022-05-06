@@ -6,6 +6,17 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+## [v2.0.0-beta.8] - 2022-05-06
+
+### Added
+
+- Add issue stale bots by [@misitebao](https://github.com/misitebao)
+
+### Changed
+
+- Switch to the form template by [@misitebao](https://github.com/misitebao)
+- Upgrade the front-end development method in dev mode by [@daoif](https://github.com/daoif)
+
 ## [v2.0.0-beta.7] - 2022-03-23
 
 ### Added
@@ -43,7 +54,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 - Modify window size by [@crushonyou18](https://github.com/crushonyou18)
 
-[unreleased]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.7...HEAD
+[unreleased]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.8...HEAD
+[v2.0.0-beta.8]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.7...v2.0.0-beta.8
 [v2.0.0-beta.7]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.6...v2.0.0-beta.7
 [v2.0.0-beta.6]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.5...v2.0.0-beta.6
 [v2.0.0-beta.5]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.4...v2.0.0-beta.5
