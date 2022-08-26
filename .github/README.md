@@ -1,39 +1,37 @@
 <p align="center">
   <img src="./logo.png" height="280" />
 </p>
+
 <p align="center">
   A Wails template based on Vue and Vue-Router
 </p>
+
 <p align="center">
   <a href="https://github.com/misitebao/wails-template-vue/blob/main/LICENSE">
-    <img alt="GitHub" src="https://img.shields.io/github/license/misitebao/wails-template-vue?style=flat-square"/>
+    <img alt="GitHub" src="https://img.shields.io/github/license/misitebao/wails-template-vue"/>
   </a>
   <a href="https://github.com/misitebao/standard-repository">
-    <img alt="GitHub" src="https://cdn.jsdelivr.net/gh/misitebao/standard-repository@main/assets/badge_flat-square.svg"/>
-  </a>
-  <a href="https://github.com/misitebao/wails-template-vue">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/misitebao/wails-template-vue?style=flat-square"/>
+    <img alt="GitHub" src="https://cdn.jsdelivr.net/gh/misitebao/standard-repository@main/assets/badge_flat.svg"/>
   </a>
   <a href="https://github.com/misitebao/wails-template-vue/releases">
-    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/misitebao/wails-template-vue?include_prereleases&sort=semver&style=flat-square">
-  </a>
-  <a href="https://github.com/misitebao">
-    <img alt="GitHub user" src="https://img.shields.io/badge/author-misitebao-brightgreen?style=flat-square"/>
-  </a>
-  <a href="https://github.com/wailsapp/wails">
-    <img alt="Gitter" src="https://img.shields.io/badge/For-Wails-brightgreen?style=flat-square&color=ff3c3c"/>
+    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/misitebao/wails-template-vue?include_prereleases&sort=semver">
   </a>
   <a href="https://github.com/wailsapp/awesome-wails">
-    <img alt="Awesome-Wails" src="https://cdn.jsdelivr.net/gh/sindresorhus/awesome@main/media/badge-flat.svg"/>
+    <img alt="Awesome-Wails" src="https://cdn.jsdelivr.net/gh/sindresorhus/awesome@main/media/badge.svg"/>
   </a>
-  <img src="https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-brightgreen?style=flat-square"/>
+  <br/>
+  <img src="https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-brightgreen?"/>
 </p>
 
-<span id="nav-1"></span>
+<div align="center">
+<strong>
+<samp>
 
-## Internationalization
+[English](README.md) · [简体中文](README.zh-Hans.md)
 
-[English](README.md) | [简体中文](README.zh-Hans.md)
+</samp>
+</strong>
+</div>
 
 <span id="nav-2"></span>
 
@@ -42,7 +40,6 @@
 <details>
   <summary>Click me to Open/Close the directory listing</summary>
 
-- [Internationalization](#nav-1)
 - [Table of Contents](#nav-2)
 - [Introductions](#nav-3)
   - [Official Website](#nav-3-1)

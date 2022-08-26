@@ -1,38 +1,37 @@
 <p align="center">
   <img src="./logo.png" height="280" />
 </p>
+
 <p align="center">
   基于Vue和Vue-Router的Wails模板
 </p>
+
 <p align="center">
   <a href="https://github.com/misitebao/wails-template-vue/blob/main/LICENSE">
-    <img alt="GitHub" src="https://img.shields.io/github/license/misitebao/wails-template-vue?style=flat-square"/>
+    <img alt="GitHub" src="https://img.shields.io/github/license/misitebao/wails-template-vue"/>
   </a>
   <a href="https://github.com/misitebao/standard-repository">
-    <img alt="GitHub" src="https://cdn.jsdelivr.net/gh/misitebao/standard-repository@main/assets/badge_flat-square.svg"/>
-  </a>
-  <a href="https://github.com/misitebao/wails-template-vue">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/misitebao/wails-template-vue?style=flat-square"/>
+    <img alt="GitHub" src="https://cdn.jsdelivr.net/gh/misitebao/standard-repository@main/assets/badge_flat.svg"/>
   </a>
   <a href="https://github.com/misitebao/wails-template-vue/releases">
-    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/misitebao/wails-template-vue?include_prereleases&sort=semver&style=flat-square">
-  </a>
-  <a href="https://github.com/misitebao">
-    <img alt="GitHub user" src="https://img.shields.io/badge/author-misitebao-brightgreen?style=flat-square"/>
-  </a>
-  <a href="https://github.com/wailsapp/wails">
-    <img alt="Gitter" src="https://img.shields.io/badge/For-Wails-brightgreen?style=flat-square&color=ff3c3c"/>
+    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/misitebao/wails-template-vue?include_prereleases&sort=semver">
   </a>
   <a href="https://github.com/wailsapp/awesome-wails">
-    <img alt="Awesome-Wails" src="https://cdn.jsdelivr.net/gh/sindresorhus/awesome@main/media/badge-flat.svg"/>
+    <img alt="Awesome-Wails" src="https://cdn.jsdelivr.net/gh/sindresorhus/awesome@main/media/badge.svg"/>
   </a>
-  <img src="https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-brightgreen?style=flat-square"/>
+  <br/>
+  <img src="https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-brightgreen?"/>
 </p>
-<span id="nav-1"></span>
 
-## 国际化
+<div align="center">
+<strong>
+<samp>
 
-[English](README.md) | [简体中文](README.zh-Hans.md)
+[English](README.md) · [简体中文](README.zh-Hans.md)
+
+</samp>
+</strong>
+</div>
 
 <span id="nav-2"></span>
 
@@ -41,7 +40,6 @@
 <details>
   <summary>点我 打开/关闭 目录列表</summary>
 
-- [国际化](#nav-1)
 - [内容目录](#nav-2)
 - [项目介绍](#nav-3)
   - [官方网站](#nav-3-1)
