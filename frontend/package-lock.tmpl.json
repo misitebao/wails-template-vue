@@ -1,11 +1,11 @@
 {
-  "name": "vue",
+  "name": "{{.ProjectName}}",
   "version": "0.0.0",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
-      "name": "vue",
+      "name": "{{.ProjectName}}",
       "version": "0.0.0",
       "dependencies": {
         "pinia": "^2.0.17",
