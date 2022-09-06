@@ -52,7 +52,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Changed
 
-- Modify window size by [@crushonyou18](https://github.com/crushonyou18)
+- Modify window size by [@eighteenzheng](https://github.com/eighteenzheng)
 
 [unreleased]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.8...HEAD
 [v2.0.0-beta.8]: https://github.com/misitebao/wails-template-vue/compare/v2.0.0-beta.7...v2.0.0-beta.8

@@ -150,7 +150,7 @@ wails init -n [你的应用名称] -t https://github.com/misitebao/wails-templat
 
 感谢所有参与 wails-template-vue 开发的贡献者。[贡献者列表](https://github.com/misitebao/wails-template-vue/graphs/contributors)
 
-<a href="https://github.com/crushonyou18"><img src="https://github.com/crushonyou18.png" width="40" height="40" alt="crushonyou18" title="crushonyou18"/></a>
+<a href="https://github.com/eighteenzheng"><img src="https://github.com/eighteenzheng.png" width="40" height="40" alt="eighteenzheng" title="eighteenzheng"/></a>
 <a href="https://github.com/daoif"><img src="https://github.com/daoif.png" width="40" height="40" alt="daoif" title="daoif"/></a>
 
 <span id="nav-10"></span>
