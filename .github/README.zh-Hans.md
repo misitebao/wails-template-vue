@@ -149,4 +149,4 @@ wails init -n <你的应用名称> -t https://github.com/misitebao/wails-templat
 
 ## 许可证
 
-[License MIT](../LICENSE)
+[License MIT](./LICENSE)

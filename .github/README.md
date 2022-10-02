@@ -148,4 +148,4 @@ Check out the changelog [here](./CHANGELOG.md).
 
 ## License
 
-[License MIT](../LICENSE)
+[License MIT](./LICENSE)
