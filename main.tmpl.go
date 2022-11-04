@@ -7,6 +7,7 @@ import (
 	"github.com/wailsapp/wails/v2"
 	"github.com/wailsapp/wails/v2/pkg/logger"
 	"github.com/wailsapp/wails/v2/pkg/options"
+	"github.com/wailsapp/wails/v2/pkg/options/assetserver"
 	"github.com/wailsapp/wails/v2/pkg/options/linux"
 	"github.com/wailsapp/wails/v2/pkg/options/mac"
 	"github.com/wailsapp/wails/v2/pkg/options/windows"
@@ -39,7 +40,6 @@ func main() {
 		StartHidden:       false,
 		HideWindowOnClose: false,
 		BackgroundColour:  &options.RGBA{R: 255, G: 255, B: 255, A: 0},
-		Assets:            assets,
 		Menu:              nil,
 		Logger:            nil,
 		LogLevel:          logger.DEBUG,
@@ -48,6 +48,11 @@ func main() {
 		OnBeforeClose:     app.beforeClose,
 		OnShutdown:        app.shutdown,
 		WindowStartState:  options.Normal,
+		AssetServer: &assetserver.Options{
+			Assets:     assets,
+			Handler:    nil,
+			Middleware: nil,
+		},
 		Bind: []interface{}{
 			app,
 		},
@@ -61,27 +66,6 @@ func main() {
 			WebviewUserDataPath:               "",
 			WebviewBrowserPath:                "",
 			Theme:                             windows.SystemDefault,
-			CustomTheme: &windows.ThemeSettings{
-				DarkModeTitleBar:   windows.RGB(20, 20, 20),
-				DarkModeTitleText:  windows.RGB(200, 200, 200),
-				DarkModeBorder:     windows.RGB(20, 0, 20),
-				LightModeTitleBar:  windows.RGB(200, 200, 200),
-				LightModeTitleText: windows.RGB(20, 20, 20),
-				LightModeBorder:    windows.RGB(200, 200, 200),
-			},
-			// User messages that can be customised
-			// Messages: &windows.Messages{
-			// 	InstallationRequired: "",
-			// 	UpdateRequired:       "",
-			// 	MissingRequirements:  "",
-			// 	Webview2NotInstalled: "",
-			// 	Error:                "",
-			// 	FailedToInstall:      "",
-			// 	DownloadPage:         "",
-			// 	PressOKToInstall:     "",
-			// 	ContactAdmin:         "",
-			// 	InvalidFixedWebview2: "",
-			// },
 		},
 		// Mac platform specific options
 		// Mac平台特定选项
