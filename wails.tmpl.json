@@ -6,7 +6,7 @@
   "frontend:build": "npm run build",
   "frontend:dev:build": "npm run build-only",
   "frontend:dev:watcher": "npm run dev",
-  "frontend:dev:serverUrl": "http://localhost:5173",
+  "frontend:dev:serverUrl": "auto",
   "debounceMS": 500,
   "author": {
     "name": "{{.AuthorName}}",

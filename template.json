@@ -1,7 +1,7 @@
 {
   "name": "wails-template-vue",
   "shortname": "vue",
-  "author": "Misitebao <i@misitebao.com>",
-  "description": "A template using vue and vue-router",
+  "author": "Misite Bao <i@misitebao.com>",
+  "description": "Wails template based on Vue ecology",
   "helpurl": "https://github.com/misitebao/wails-template-vue"
 }
