@@ -1,0 +1,21 @@
+name: Feature Request
+description: Please describe in detail the features you expect.
+labels: ["enhancement"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please answer these questions before you submit the desired feature.
+
+  - type: textarea
+    attributes:
+      label: 1. Your usage scenarios?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 2. What is your expected outcome?
+    validations:
+      required: true

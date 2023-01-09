@@ -1,0 +1,33 @@
+name: Bug Report
+description: Please describe in detail the problems you encountered in the process of using.
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please answer these questions before you submit a bug.
+
+  - type: textarea
+    attributes:
+      label: 1. Your usage scenarios?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 2. What did you do?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 3. What are your problems?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 4. What is your expected outcome?
+    validations:
+      required: false
